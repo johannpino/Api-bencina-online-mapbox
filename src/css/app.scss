@@ -1,0 +1,31 @@
+@import "~bootstrap/scss/bootstrap";
+
+.marker {
+    background-image: url('../../icon.svg');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .geocoder {
+    position:absolute;
+    z-index:1;
+    width:50%;
+    left:2%;
+    top:10vh;
+}
+.mapboxgl-ctrl-geocoder{
+    width:100% !important;
+
+}
+.img-logo{
+    width: 40px;
+    height: 40px;
+}
+
+.alert{
+    margin-bottom: 0;
+    width: 100%;
+    display: block;
+    text-align: center
+}

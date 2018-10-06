@@ -1,0 +1,13 @@
+Primero Creamos carpeta e iniciamos el comando npm init, para crear el archivo package.json
+Despues instalamos los paquetes npm install --save-dev webpack webpack-cli
+Creamos carpeta src index.js y index.html
+Probamos comando node_module/.bin/webpack src/js/index.js
+Despues creamos archivo configuracion webpack (webpack.config.js)
+crear module.exports entry la entrada que tomara y output el archivo de salida
+Agregar babel al proyecto npm intall --save-dev @babel/core @babel/preset-env babel-loader
+crear archivo .babelrc y agregar obejto preset con areeglo "@babel/preset-env"
+Para agregar css hay que agreara npm install --save-dev css-loader style-loader, agregar un test webpack.config
+Para agregar sass hay que agreara npm install --save-dev sass-loader node-sass, agregar un test webpack.config
+instalamos webpack-dev-server y agregamos comando package
+Instalamos html-webpack-plugin, agregar una const, despues llamamos a llamar plugins new html-webpack-plugin
+para instalar bootstrap npm i -D bootstrap jquery popper.js
